@@ -1,3 +1,5 @@
+import aksesmu from "./aksesmu.png";
+import bitcoin from "./bitcoin.svg";
 import css from "./css.svg";
 import del from "./del.png";
 import express from "./express.svg";
@@ -35,11 +37,11 @@ import bootstrap from "./bootstrap.svg";
 import flutter from "./flutter.svg";
 import vue from "./vue.svg";
 import nuxt from "./nuxt.svg";
-import aksesmu from "./aksesmu.png";
 import youtube from "./youtube.svg";
 
 export {
   aksesmu,
+  bitcoin,
   css,
   del,
   express,

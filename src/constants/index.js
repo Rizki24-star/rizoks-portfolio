@@ -1,5 +1,6 @@
 import {
   aksesmu,
+  bitcoin,
   contact,
   css,
   del,
@@ -175,6 +176,22 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: bitcoin,
+    theme: "btn-back-yellow",
+    name: "Crypto App",
+    description:
+      "Developed a comprehensive cryptocurrency application using React, TypeScript, Redux, and RTK Query, featuring global statistics, detailed coin information, interactive charts, and news filtering, all integrated with Ant Design and Chart.js.",
+    link: "https://github.com/Rizki24-star/crypto-app",
+  },
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-blue",
+    name: "SatuPintu App",
+    description:
+      "i'm Building a mobile application and web service for regional levy collection that allows local governments to manage and generate their own levies in each department dynamically according to their regulations, and also enable non-cash payments that are integrated with payment gateway",
+    link: "https://github.com/orgs/eretribusi-satupintu/repositories",
+  },
   {
     iconUrl: pricewise,
     theme: "btn-back-blue",

@@ -7,7 +7,6 @@ import useAllert from "../hooks/useAllert";
 import Alert from "../components/Alert";
 
 const Contact = () => {
-  const formRef = useRef(null);
   const [form, setform] = useState({ name: "", email: "", message: "" });
   const [isLoading, setisLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");

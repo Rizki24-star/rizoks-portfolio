@@ -21,7 +21,7 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Final year student at Del Institute of Technolog and passionate in Frontend Development"
+      text="Final year student at Del Institute of Technology and passionate in Frontend Development"
       link="/about"
       btnText="Learn more"
     />

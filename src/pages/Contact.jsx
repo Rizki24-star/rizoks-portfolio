@@ -1,4 +1,4 @@
-import { Suspense, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Loader from "../components/Loader";
 import Fox from "../models/Fox";
@@ -12,6 +12,10 @@ const Contact = () => {
   const [currentAnimation, setCurrentAnimation] = useState("idle");
 
   const { alert, showAlert, hideAlert } = useAllert();
+
+  useEffect(() => {
+    console.log("public key: " + import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+  }, []);
 
   const handleChange = (e) => {
     setform({ ...form, [e.target.name]: e.target.value });
@@ -66,7 +70,7 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation("idle");
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
+    <section className="relative flex lg:flex-row flex-col max-container ">
       {alert.show && <Alert {...alert} />}
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in touch</h1>

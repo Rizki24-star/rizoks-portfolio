@@ -16,11 +16,14 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Final year student in Software Engineering Technology with great
-          enthusiasm for programming especially in software development.
-          Experienced in developing application using React, Laravel, Nuxt ,
-          Flutter and Node. Able to work individually or in groups and
-          adaptable.
+          I am a recent graduate with a Bachelor's degree in Applied Software
+          Engineering Technology from Institut Teknologi Del, My enthusiasm for
+          programming and software development has driven me to gain hands-on
+          experience in building applications using various technologies,
+          including React, Next.js, Flutter, Nuxt.js, Node.js and Laravel.
+          Throughout my academic and professional journey, I have developed a
+          keen ability to work both independently and collaboratively,
+          demonstrating adaptability and problem-solving skills.
         </p>
       </div>
 

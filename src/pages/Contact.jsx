@@ -21,12 +21,12 @@ const Contact = () => {
     setform({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setisLoading(() => true);
     setCurrentAnimation("hit");
 
-    emailjs
+    await emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,

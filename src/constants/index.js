@@ -201,14 +201,6 @@ export const projects = [
     link: "https://github.com/orgs/eretribusi-satupintu/repositories",
   },
   {
-    iconUrl: youtube,
-    theme: "btn-back-red",
-    name: "YouTube Clone Application ",
-    description:
-      'Creating a replica of the "YouTube" video platform, which allows users to access videos available on YouTube using data from RapidAPI.',
-    link: "https://github.com/Rizki24-star/Youtube-Clone",
-  },
-  {
     iconUrl: restaurant,
     theme: "btn-back-black",
     name: "Restaurant Cashier Application (KasirApp)",

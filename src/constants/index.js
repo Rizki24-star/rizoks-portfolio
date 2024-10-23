@@ -220,14 +220,6 @@ export const projects = [
     link: "https://github.com/orgs/eretribusi-satupintu/repositories",
   },
   {
-    iconUrl: pricewise,
-    theme: "btn-back-blue",
-    name: "SatuPintu App",
-    description:
-      "i'm Building a mobile application and web service for regional levy collection that allows local governments to manage and generate their own levies in each department dynamically according to their regulations, and also enable non-cash payments that are integrated with payment gateway",
-    link: "https://github.com/orgs/eretribusi-satupintu/repositories",
-  },
-  {
     iconUrl: restaurant,
     theme: "btn-back-black",
     name: "Restaurant Cashier Application (KasirApp)",

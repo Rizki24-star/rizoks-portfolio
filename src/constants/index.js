@@ -8,9 +8,11 @@ import {
   git,
   github,
   html,
+  invoice,
   javascript,
   linkedin,
   market,
+  morty,
   nextjs,
   nodejs,
   pricewise,
@@ -26,6 +28,7 @@ import {
   nuxt,
   vue,
   youtube,
+  docs,
 } from "../assets/icons";
 
 export const skills = [
@@ -176,6 +179,30 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: invoice,
+    theme: "btn-back-blue",
+    name: "Invoiceku",
+    description:
+      "Developed a fullstack invoice management and business monitoring app using React and TypeScript with Redux for state management, Chart.js for income data visualization, Zod for form validation, and a backend built with Node.js, Express, Prisma ORM, and PostgreSQL.",
+    link: "https://github.com/Rizki24-star/invoiceku",
+  },
+  {
+    iconUrl: morty,
+    theme: "btn-back-black",
+    name: "RickAndMorty",
+    description:
+      "Built a responsive web app to explore Rick and Morty characters, locations, and episodes using The Rick and Morty API, leveraging GraphQL with Apollo Client for efficient queries, Recoil for global state management, and Bootstrap for consistent styling.",
+    link: "https://github.com/Rizki24-star/rickandmorty",
+  },
+  {
+    iconUrl: docs,
+    theme: "btn-back-black",
+    name: "LiveDocs",
+    description:
+      "Developed a real-time document management platform using Next.js, TypeScript, and Liveblocks for live collaboration, with advanced text editing powered by Lexical Editor, ShadCN for UI components, and Tailwind CSS for styling.",
+    link: "https://github.com/Rizki24-star/LiveDocs",
+  },
   {
     iconUrl: bitcoin,
     theme: "btn-back-yellow",

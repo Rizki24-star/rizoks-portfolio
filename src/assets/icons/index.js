@@ -2,13 +2,16 @@ import aksesmu from "./aksesmu.png";
 import bitcoin from "./bitcoin.svg";
 import css from "./css.svg";
 import del from "./del.png";
+import docs from "./docs.svg";
 import express from "./express.svg";
 import git from "./git.svg";
 import github from "./github.svg";
 import html from "./html.svg";
+import invoice from "./invoice.svg";
 import javascript from "./javascript.svg";
 import market from "./market.svg";
 import mongodb from "./mongodb.svg";
+import morty from "./morty.svg";
 import motion from "./motion.svg";
 import mui from "./mui.svg";
 import nextjs from "./nextjs.svg";
@@ -44,13 +47,16 @@ export {
   bitcoin,
   css,
   del,
+  docs,
   express,
   git,
   github,
   html,
+  invoice,
   javascript,
   market,
   mongodb,
+  morty,
   motion,
   mui,
   nextjs,
